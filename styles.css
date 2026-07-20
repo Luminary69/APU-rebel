@@ -46,20 +46,21 @@ nav {
   flex-direction: column;
   position: absolute;
   top: 100%; left: 0; right: 0;
-  background: #E5E7EB;
+  background: rgba(10,10,10,0.95);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
   padding: 0 1.5rem;
   gap: 0;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.35s ease;
+  transition: max-height 0.35s ease, padding 0.35s ease;
 }
-.nav-links.open { max-height: 600px; padding: 0.5rem 1.5rem 1rem; }
+.nav-links.open { max-height: 700px; padding: 0.75rem 1.5rem 1rem; }
 .nav-links button {
-  background: none; border: none; color: var(--gray-light);
+  background: none; border: none; color: var(--white);
   font-family: 'Barlow Condensed', sans-serif;
-  font-size: 0.85rem; font-weight: 600; letter-spacing: 1px;
-  text-transform: uppercase; padding: 0.75rem 0.75rem;
-  cursor: pointer; border-radius: 4px; transition: all 0.2s;
+  font-size: 0.95rem; font-weight: 700; letter-spacing: 1px;
+  text-transform: uppercase; padding: 0.9rem 0.75rem;
+  cursor: pointer; border-radius: 6px; transition: all 0.2s;
   width: 100%; text-align: left;
 }
 .nav-links button:hover, .nav-links button.active {
