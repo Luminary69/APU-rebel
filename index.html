@@ -1,7 +1,12 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APU Slam Dunkers</title>
   <link rel="stylesheet" href="styles.css">
-    line-height: 1;
-  }
+  <style>
+    html, body { line-height: 1; }
   .hero-stat .lbl {
     font-size: 0.75rem; font-weight: 600; letter-spacing: 2px;
     text-transform: uppercase; color: var(--gray);
@@ -1239,7 +1244,7 @@
     .event-card { flex-direction: column; gap: 0.9rem; padding: 1rem; }
     .schedule-table th, .schedule-table td { padding: 0.7rem 0.6rem; font-size: 0.82rem; }
   }
-    
+  </style>
 
 </head>
 <body>
@@ -1303,9 +1308,7 @@
       <div class="hero-stat"><div class="num">5</div><div class="lbl">Championships</div></div>
     </div>
   </section>
-  
-  
-  
+
   <!-- Partners -->
   <section class="section">
     <div class="section-tag">Who We Work With</div>
@@ -1512,14 +1515,14 @@
     <div class="roster-select">
       <div class="rs-carousel" id="rs-carousel">
         <div class="rs-pad-spacer"></div>
-        <div class="rs-slide" data-id="p1"><div class="rs-photo"><img src="https://i.pravatar.cc/300?img=13" alt="Marcus Tan"><span class="rs-num">#1</span></div><div class="rs-text"><h4>Marcus Tan</h4><p>Point Guard · Captain</p></div></div>
-        <div class="rs-slide" data-id="p2"><div class="rs-photo"><img src="https://i.pravatar.cc/300?img=51" alt="Aiden Raj"><span class="rs-num">#5</span></div><div class="rs-text"><h4>Aiden Raj</h4><p>Shooting Guard</p></div></div>
-        <div class="rs-slide" data-id="p3"><div class="rs-photo"><img src="https://i.pravatar.cc/300?img=33" alt="Kevin Lim"><span class="rs-num">#10</span></div><div class="rs-text"><h4>Kevin Lim</h4><p>Small Forward</p></div></div>
-        <div class="rs-slide" data-id="p4"><div class="rs-photo"><img src="https://i.pravatar.cc/300?img=52" alt="Zafran Ali"><span class="rs-num">#15</span></div><div class="rs-text"><h4>Zafran Ali</h4><p>Power Forward</p></div></div>
-        <div class="rs-slide" data-id="p5"><div class="rs-photo"><img src="https://i.pravatar.cc/300?img=14" alt="Dylan Chen"><span class="rs-num">#23</span></div><div class="rs-text"><h4>Dylan Chen</h4><p>Center</p></div></div>
-        <div class="rs-slide" data-id="p6"><div class="rs-photo"><img src="https://i.pravatar.cc/300?img=47" alt="Priya Nair"><span class="rs-num">#7</span></div><div class="rs-text"><h4>Priya Nair</h4><p>Point Guard · Women's</p></div></div>
-        <div class="rs-slide" data-id="p7"><div class="rs-photo"><img src="https://i.pravatar.cc/300?img=44" alt="Siti Rahimah"><span class="rs-num">#11</span></div><div class="rs-text"><h4>Siti Rahimah</h4><p>Shooting Guard · Women's</p></div></div>
-        <div class="rs-slide" data-id="p8"><div class="rs-photo"><img src="https://i.pravatar.cc/300?img=15" alt="Ivan Petrov"><span class="rs-num">#33</span></div><div class="rs-text"><h4>Ivan Petrov</h4><p>Center · Reserve</p></div></div>
+        <div class="rs-slide" data-id="p1"><div class="rs-photo"><img src="img/homepage.jpeg" alt="Marcus Tan"><span class="rs-num">#1</span></div><div class="rs-text"><h4>Marcus Tan</h4><p>Point Guard · Captain</p></div></div>
+        <div class="rs-slide" data-id="p2"><div class="rs-photo"><img src="img/homepage (1).jpeg" alt="Aiden Raj"><span class="rs-num">#5</span></div><div class="rs-text"><h4>Aiden Raj</h4><p>Shooting Guard</p></div></div>
+        <div class="rs-slide" data-id="p3"><div class="rs-photo"><img src="img/homepage (2).jpeg" alt="Kevin Lim"><span class="rs-num">#10</span></div><div class="rs-text"><h4>Kevin Lim</h4><p>Small Forward</p></div></div>
+        <div class="rs-slide" data-id="p4"><div class="rs-photo"><img src="img/baskpra.jpg" alt="Zafran Ali"><span class="rs-num">#15</span></div><div class="rs-text"><h4>Zafran Ali</h4><p>Power Forward</p></div></div>
+        <div class="rs-slide" data-id="p5"><div class="rs-photo"><img src="img/bas_pra.jpg" alt="Dylan Chen"><span class="rs-num">#23</span></div><div class="rs-text"><h4>Dylan Chen</h4><p>Center</p></div></div>
+        <div class="rs-slide" data-id="p6"><div class="rs-photo"><img src="img/baskebalcourt.jpg" alt="Priya Nair"><span class="rs-num">#7</span></div><div class="rs-text"><h4>Priya Nair</h4><p>Point Guard · Women's</p></div></div>
+        <div class="rs-slide" data-id="p7"><div class="rs-photo"><img src="img/cafe.jpg" alt="Siti Rahimah"><span class="rs-num">#11</span></div><div class="rs-text"><h4>Siti Rahimah</h4><p>Shooting Guard · Women's</p></div></div>
+        <div class="rs-slide" data-id="p8"><div class="rs-photo"><img src="img/homepage.jpeg" alt="Ivan Petrov"><span class="rs-num">#33</span></div><div class="rs-text"><h4>Ivan Petrov</h4><p>Center · Reserve</p></div></div>
         <div class="rs-pad-spacer"></div>
       </div>
       <div class="rs-list" id="rs-list">
@@ -1538,7 +1541,7 @@
 
     <div class="team-grid">
       <div class="member-card reveal" onclick="openPlayerReveal('p1')">
-        <div class="member-avatar"><img src="https://i.pravatar.cc/300?img=13" alt="Marcus Tan"><div class="celeb-ring"></div><span class="celeb-spark" style="--sx:-70px;--sy:-40px;"></span><span class="celeb-spark" style="--sx:70px;--sy:-40px;"></span><span class="celeb-spark" style="--sx:-90px;--sy:10px;"></span><span class="celeb-spark" style="--sx:90px;--sy:10px;"></span><span class="celeb-spark" style="--sx:-40px;--sy:70px;"></span><span class="celeb-spark" style="--sx:40px;--sy:70px;"></span><div class="member-num">#1</div></div>
+        <div class="member-avatar"><img src="img/homepage.jpeg" alt="Marcus Tan"><div class="celeb-ring"></div><span class="celeb-spark" style="--sx:-70px;--sy:-40px;"></span><span class="celeb-spark" style="--sx:70px;--sy:-40px;"></span><span class="celeb-spark" style="--sx:-90px;--sy:10px;"></span><span class="celeb-spark" style="--sx:90px;--sy:10px;"></span><span class="celeb-spark" style="--sx:-40px;--sy:70px;"></span><span class="celeb-spark" style="--sx:40px;--sy:70px;"></span><div class="member-num">#1</div></div>
         <div class="member-info">
           <h3>Marcus Tan</h3>
           <div class="member-pos">Point Guard · Captain</div>
@@ -1550,7 +1553,7 @@
         </div>
       </div>
       <div class="member-card reveal" onclick="openPlayerReveal('p2')">
-        <div class="member-avatar"><img src="https://i.pravatar.cc/300?img=51" alt="Aiden Raj"><div class="celeb-ring"></div><span class="celeb-spark" style="--sx:-70px;--sy:-40px;"></span><span class="celeb-spark" style="--sx:70px;--sy:-40px;"></span><span class="celeb-spark" style="--sx:-90px;--sy:10px;"></span><span class="celeb-spark" style="--sx:90px;--sy:10px;"></span><span class="celeb-spark" style="--sx:-40px;--sy:70px;"></span><span class="celeb-spark" style="--sx:40px;--sy:70px;"></span><div class="member-num">#5</div></div>
+        <div class="member-avatar"><img src="img/homepage (1).jpeg" alt="Aiden Raj"><div class="celeb-ring"></div><span class="celeb-spark" style="--sx:-70px;--sy:-40px;"></span><span class="celeb-spark" style="--sx:70px;--sy:-40px;"></span><span class="celeb-spark" style="--sx:-90px;--sy:10px;"></span><span class="celeb-spark" style="--sx:90px;--sy:10px;"></span><span class="celeb-spark" style="--sx:-40px;--sy:70px;"></span><span class="celeb-spark" style="--sx:40px;--sy:70px;"></span><div class="member-num">#5</div></div>
         <div class="member-info">
           <h3>Aiden Raj</h3>
           <div class="member-pos">Shooting Guard</div>
@@ -1562,7 +1565,7 @@
         </div>
       </div>
       <div class="member-card reveal" onclick="openPlayerReveal('p3')">
-        <div class="member-avatar"><img src="https://i.pravatar.cc/300?img=33" alt="Kevin Lim"><div class="celeb-ring"></div><span class="celeb-spark" style="--sx:-70px;--sy:-40px;"></span><span class="celeb-spark" style="--sx:70px;--sy:-40px;"></span><span class="celeb-spark" style="--sx:-90px;--sy:10px;"></span><span class="celeb-spark" style="--sx:90px;--sy:10px;"></span><span class="celeb-spark" style="--sx:-40px;--sy:70px;"></span><span class="celeb-spark" style="--sx:40px;--sy:70px;"></span><div class="member-num">#10</div></div>
+        <div class="member-avatar"><img src="img/homepage (2).jpeg" alt="Kevin Lim"><div class="celeb-ring"></div><span class="celeb-spark" style="--sx:-70px;--sy:-40px;"></span><span class="celeb-spark" style="--sx:70px;--sy:-40px;"></span><span class="celeb-spark" style="--sx:-90px;--sy:10px;"></span><span class="celeb-spark" style="--sx:90px;--sy:10px;"></span><span class="celeb-spark" style="--sx:-40px;--sy:70px;"></span><span class="celeb-spark" style="--sx:40px;--sy:70px;"></span><div class="member-num">#10</div></div>
         <div class="member-info">
           <h3>Kevin Lim</h3>
           <div class="member-pos">Small Forward</div>
@@ -1574,7 +1577,7 @@
         </div>
       </div>
       <div class="member-card reveal" onclick="openPlayerReveal('p4')">
-        <div class="member-avatar"><img src="https://i.pravatar.cc/300?img=52" alt="Zafran Ali"><div class="celeb-ring"></div><span class="celeb-spark" style="--sx:-70px;--sy:-40px;"></span><span class="celeb-spark" style="--sx:70px;--sy:-40px;"></span><span class="celeb-spark" style="--sx:-90px;--sy:10px;"></span><span class="celeb-spark" style="--sx:90px;--sy:10px;"></span><span class="celeb-spark" style="--sx:-40px;--sy:70px;"></span><span class="celeb-spark" style="--sx:40px;--sy:70px;"></span><div class="member-num">#15</div></div>
+        <div class="member-avatar"><img src="img/baskpra.jpg" alt="Zafran Ali"><div class="celeb-ring"></div><span class="celeb-spark" style="--sx:-70px;--sy:-40px;"></span><span class="celeb-spark" style="--sx:70px;--sy:-40px;"></span><span class="celeb-spark" style="--sx:-90px;--sy:10px;"></span><span class="celeb-spark" style="--sx:90px;--sy:10px;"></span><span class="celeb-spark" style="--sx:-40px;--sy:70px;"></span><span class="celeb-spark" style="--sx:40px;--sy:70px;"></span><div class="member-num">#15</div></div>
         <div class="member-info">
           <h3>Zafran Ali</h3>
           <div class="member-pos">Power Forward</div>
@@ -1586,7 +1589,7 @@
         </div>
       </div>
       <div class="member-card reveal" onclick="openPlayerReveal('p5')">
-        <div class="member-avatar"><img src="https://i.pravatar.cc/300?img=14" alt="Dylan Chen"><div class="celeb-ring"></div><span class="celeb-spark" style="--sx:-70px;--sy:-40px;"></span><span class="celeb-spark" style="--sx:70px;--sy:-40px;"></span><span class="celeb-spark" style="--sx:-90px;--sy:10px;"></span><span class="celeb-spark" style="--sx:90px;--sy:10px;"></span><span class="celeb-spark" style="--sx:-40px;--sy:70px;"></span><span class="celeb-spark" style="--sx:40px;--sy:70px;"></span><div class="member-num">#23</div></div>
+        <div class="member-avatar"><img src="img/bas_pra.jpg" alt="Dylan Chen"><div class="celeb-ring"></div><span class="celeb-spark" style="--sx:-70px;--sy:-40px;"></span><span class="celeb-spark" style="--sx:70px;--sy:-40px;"></span><span class="celeb-spark" style="--sx:-90px;--sy:10px;"></span><span class="celeb-spark" style="--sx:90px;--sy:10px;"></span><span class="celeb-spark" style="--sx:-40px;--sy:70px;"></span><span class="celeb-spark" style="--sx:40px;--sy:70px;"></span><div class="member-num">#23</div></div>
         <div class="member-info">
           <h3>Dylan Chen</h3>
           <div class="member-pos">Center</div>
@@ -1598,7 +1601,7 @@
         </div>
       </div>
       <div class="member-card reveal" onclick="openPlayerReveal('p6')">
-        <div class="member-avatar"><img src="https://i.pravatar.cc/300?img=47" alt="Priya Nair"><div class="celeb-ring"></div><span class="celeb-spark" style="--sx:-70px;--sy:-40px;"></span><span class="celeb-spark" style="--sx:70px;--sy:-40px;"></span><span class="celeb-spark" style="--sx:-90px;--sy:10px;"></span><span class="celeb-spark" style="--sx:90px;--sy:10px;"></span><span class="celeb-spark" style="--sx:-40px;--sy:70px;"></span><span class="celeb-spark" style="--sx:40px;--sy:70px;"></span><div class="member-num">#7</div></div>
+        <div class="member-avatar"><img src="img/baskebalcourt.jpg" alt="Priya Nair"><div class="celeb-ring"></div><span class="celeb-spark" style="--sx:-70px;--sy:-40px;"></span><span class="celeb-spark" style="--sx:70px;--sy:-40px;"></span><span class="celeb-spark" style="--sx:-90px;--sy:10px;"></span><span class="celeb-spark" style="--sx:90px;--sy:10px;"></span><span class="celeb-spark" style="--sx:-40px;--sy:70px;"></span><span class="celeb-spark" style="--sx:40px;--sy:70px;"></span><div class="member-num">#7</div></div>
         <div class="member-info">
           <h3>Priya Nair</h3>
           <div class="member-pos">Point Guard · Women's Team</div>
@@ -1610,7 +1613,7 @@
         </div>
       </div>
       <div class="member-card reveal" onclick="openPlayerReveal('p7')">
-        <div class="member-avatar"><img src="https://i.pravatar.cc/300?img=44" alt="Siti Rahimah"><div class="celeb-ring"></div><span class="celeb-spark" style="--sx:-70px;--sy:-40px;"></span><span class="celeb-spark" style="--sx:70px;--sy:-40px;"></span><span class="celeb-spark" style="--sx:-90px;--sy:10px;"></span><span class="celeb-spark" style="--sx:90px;--sy:10px;"></span><span class="celeb-spark" style="--sx:-40px;--sy:70px;"></span><span class="celeb-spark" style="--sx:40px;--sy:70px;"></span><div class="member-num">#11</div></div>
+        <div class="member-avatar"><img src="img/cafe.jpg" alt="Siti Rahimah"><div class="celeb-ring"></div><span class="celeb-spark" style="--sx:-70px;--sy:-40px;"></span><span class="celeb-spark" style="--sx:70px;--sy:-40px;"></span><span class="celeb-spark" style="--sx:-90px;--sy:10px;"></span><span class="celeb-spark" style="--sx:90px;--sy:10px;"></span><span class="celeb-spark" style="--sx:-40px;--sy:70px;"></span><span class="celeb-spark" style="--sx:40px;--sy:70px;"></span><div class="member-num">#11</div></div>
         <div class="member-info">
           <h3>Siti Rahimah</h3>
           <div class="member-pos">Shooting Guard · Women's Team</div>
@@ -1622,7 +1625,7 @@
         </div>
       </div>
       <div class="member-card reveal" onclick="openPlayerReveal('p8')">
-        <div class="member-avatar"><img src="https://i.pravatar.cc/300?img=15" alt="Ivan Petrov"><div class="celeb-ring"></div><span class="celeb-spark" style="--sx:-70px;--sy:-40px;"></span><span class="celeb-spark" style="--sx:70px;--sy:-40px;"></span><span class="celeb-spark" style="--sx:-90px;--sy:10px;"></span><span class="celeb-spark" style="--sx:90px;--sy:10px;"></span><span class="celeb-spark" style="--sx:-40px;--sy:70px;"></span><span class="celeb-spark" style="--sx:40px;--sy:70px;"></span><div class="member-num">#33</div></div>
+        <div class="member-avatar"><img src="img/homepage.jpeg" alt="Ivan Petrov"><div class="celeb-ring"></div><span class="celeb-spark" style="--sx:-70px;--sy:-40px;"></span><span class="celeb-spark" style="--sx:70px;--sy:-40px;"></span><span class="celeb-spark" style="--sx:-90px;--sy:10px;"></span><span class="celeb-spark" style="--sx:90px;--sy:10px;"></span><span class="celeb-spark" style="--sx:-40px;--sy:70px;"></span><span class="celeb-spark" style="--sx:40px;--sy:70px;"></span><div class="member-num">#33</div></div>
         <div class="member-info">
           <h3>Ivan Petrov</h3>
           <div class="member-pos">Center · Reserve</div>
@@ -1661,7 +1664,7 @@
   <button class="pr-nav-btn pr-nav-next" onclick="navigatePlayerReveal(1)" aria-label="Next player">›</button>
   <div class="pr-stage">
     <div class="pr-photo-wrap">
-      <div class="pr-photo" id="pr-photo"><img src="https://i.pravatar.cc/300?img=13" alt="Player photo"></div>
+      <div class="pr-photo" id="pr-photo"><img src="img/homepage.jpeg" alt="Player photo"></div>
       <div class="pr-jersey-num" id="pr-jerseynum">#1</div>
     </div>
     <div class="pr-info">
